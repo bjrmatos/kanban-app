@@ -6,6 +6,7 @@
     "start": "webpack-dev-server",
     "build": "webpack",
     "stats": "webpack --profile --json > stats.json",
+    "deploy": "node ./lib/deploy.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "BJR Matos <bjrmatos@gmail.com> (https://github.com/bjrmatos)",
@@ -21,6 +22,7 @@
     "eslint-config-airbnb": "0.1.0",
     "eslint-plugin-react": "3.6.3",
     "extract-text-webpack-plugin": "0.9.1",
+    "gh-pages": "0.8.0",
     "html-webpack-plugin": "1.6.2",
     "open-browser-webpack-plugin": "0.0.1",
     "react-transform-hmr": "1.0.1",

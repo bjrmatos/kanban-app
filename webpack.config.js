@@ -66,7 +66,7 @@ if (TARGET === 'start' || !TARGET) {
   });
 }
 
-if (TARGET === 'build' || TARGET === 'stats') {
+if (TARGET === 'build' || TARGET === 'stats' || TARGET === 'deploy') {
   module.exports = webpackMerge(common, {
     devtool: 'source-map',
     // Define entry points needed for splitting
